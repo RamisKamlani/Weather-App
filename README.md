@@ -1,70 +1,11 @@
-# Getting Started with Create React App
+This was my first time working on front end and web development.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Design Approach: I created a simple, responsive weather web app using React.js and the OpenWeatherMap API. The user enters a city name, and the app fetches and displays current weather data such as temperature, condition, and an icon representing the weather.
 
-## Available Scripts
+Key Features: City input via text box Real-time weather fetching using fetch() Error handling (e.g. invalid city or failed API call) Weather icon shown via OpenWeatherMap's icon API Clean, web-friendly UI
 
-In the project directory, you can run:
+Design Decisions React with Vite: I used Vite for quick setup and fast development. React is great for building UI components in a modular and interactive way. State Management: I used React’s useState hook to manage city input, weather data, and error messages. Responsive Design: The layout uses CSS Flexbox and media-friendly sizes to work well on both desktop and mobile devices. Minimal UI: I chose a clean and simple design for clarity and focus on the main functionality. I avoided adding too many features to keep it easy to understand and use. API Integration: I built the fetch logic to handle both success and error cases to improve reliability and user feedback.
 
-### `npm start`
+What I Learned How to set up a React app using Vite. The basics of JSX, state management, and component-based UI design in React. How to make HTTP requests using the fetch() function. How to handle asynchronous operations and errors in JavaScript. How to structure and apply basic CSS styles for layout and presentation. How APIs work, especially how to read API documentation and extract data for use in an app. How to debug and handle common React errors like “cannot read properties of undefined”.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
